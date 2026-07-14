@@ -10,7 +10,7 @@ spec:
     app: netflix-frontend
 
   ports:
-    - port: 3000
-      targetPort: 3000
+  - port: {{ .Values.frontend.service.port }}
+    targetPort: {{ .Values.frontend.service.port }}
 
   type: ClusterIP
