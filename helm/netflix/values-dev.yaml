@@ -3,13 +3,13 @@ backend:
   replicaCount: 1
   image:
     repository: us-central1-docker.pkg.dev/godl-production/netflix-dev/netflix-backend
-    tag: "23"
+    tag: "24"
   service:
     port: 8080
 frontend:
   replicaCount: 1
   image:
     repository: us-central1-docker.pkg.dev/godl-production/netflix-dev/netflix-frontend
-    tag: "23"
+    tag: "24"
   service:
     port: 3000
