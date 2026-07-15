@@ -1,21 +1,15 @@
 namespace: dev
-
 backend:
   replicaCount: 1
-
   image:
     repository: us-central1-docker.pkg.dev/godl-production/netflix-dev/netflix-backend
-    tag: "1.0.0"
-
+    tag: "23"
   service:
     port: 8080
-
 frontend:
   replicaCount: 1
-
   image:
     repository: us-central1-docker.pkg.dev/godl-production/netflix-dev/netflix-frontend
-    tag: "1.0.0"
-
+    tag: "23"
   service:
     port: 3000
